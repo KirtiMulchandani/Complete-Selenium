@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Personal Loan">
+        <classes>
+            <class name="test.day1">
+                <methods>
+                    <include name="firstTest" />
+                </methods>
+            </class>
+            <class name="test.day2">
+                <methods>
+                    <exclude name="firstDay2ClassTC"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

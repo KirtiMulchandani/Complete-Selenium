@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="4">
+    <listeners>
+        <listener class-name="test1.TestNGListeners"/>
+    </listeners>
+    <parameter name="URL" value="https://test.com"/>
+    <parameter name="location" value="Gurugram"/>
+    <test name="Personal Loan" parallel="classes" thread-count="4">
+        <classes>
+            <class name="test1.class2"/>
+        </classes>
+    </test>
+    <test name="Car Loan">
+        <parameter name="URL" value="https://carloans.com"/>
+        <classes>
+            <class name="test1.class1"/>
+        </classes>
+    </test>
+</suite>

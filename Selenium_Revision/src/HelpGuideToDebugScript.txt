@@ -1,0 +1,5 @@
+In order to debug any piece of code/script we follow these following steps:
+1. Add the breakpoint at any particular line number (The code before that line is assumed to be passed)
+2. In order to execute from that particular we do "Step Over"
+3. In order to make the script in normal fashion, we do "Resume"
+4. In order to execute the function in debugging mode, we do "Step In"
