@@ -13,7 +13,8 @@ public class InvokingMultipleTabsOrWindows {
 
         // once we have launched the above URL, we will open new tab/window in order to get another URL opened
         driver.switchTo().newWindow(WindowType.TAB);
-
+//        driver.switchTo().newWindow(WindowType.WINDOW);
+        
         // once we have opened the new tab/window, we have to switch to that newly opened tab/window
         Set<String> windowHandles = driver.getWindowHandles();
         Iterator<String> it = windowHandles.iterator();

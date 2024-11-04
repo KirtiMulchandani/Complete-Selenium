@@ -1,0 +1,12 @@
+[
+  {
+    "email": "test.user@test.com",
+    "password": "TestUser@1234",
+    "prodName": "IPHONE 13 PRO"
+  },
+  {
+    "email": "test2.user2@test.com",
+    "password": "TestUser2@1234",
+    "prodName": "ZARA COAT 3"
+  }
+]
